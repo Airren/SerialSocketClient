@@ -6,6 +6,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.*;
 
 public class ConnectDialog {
@@ -75,7 +78,11 @@ public class ConnectDialog {
                         }
                         String receivedData = socketClient.getReceivedResult().toString();
                         System.out.println(receivedData);
+
                         //if (receivedData != null && receivedData.equals("ConnectSuccess")) {
+
+                        String[] ports = receivedData.split(",");
+                        List<String> serialPorts = Arrays.asList(ports);
                         if (receivedData != null ) {
                             JFrame desktopFrame = new JFrame("DekstopDialog");
                             desktopFrame.addWindowListener(new WindowAdapter() {
@@ -86,7 +93,7 @@ public class ConnectDialog {
                                 }
                             });
                             desktopFrame.setLocation(500, 300);
-                            desktopFrame.setContentPane(new DesktopDialog(desktoppool, ip, port).getMainPanel());
+                            desktopFrame.setContentPane(new DesktopDialog(desktoppool, ip, port, serialPorts).getMainPanel());
                             desktopFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                             desktopFrame.pack();
                             desktopFrame.setVisible(true);

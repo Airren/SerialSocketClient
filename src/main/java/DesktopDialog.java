@@ -6,6 +6,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
 import java.util.concurrent.ThreadPoolExecutor;
 
 public class DesktopDialog {
@@ -26,14 +28,16 @@ public class DesktopDialog {
 
 
 
-    public DesktopDialog(final ThreadPoolExecutor pool, final String ip, final int port) {
-        SerialPort.addItem("COM1");
-        SerialPort.addItem("COM2");
+    public DesktopDialog(final ThreadPoolExecutor pool, final String ip, final int port, final List<String> serailPorts) {
 
-
-
-
-
+        Iterator<String> it = serailPorts.iterator();
+        if (!serailPorts.isEmpty()){
+            while (it.hasNext()) {
+                SerialPort.addItem(it.next().toString());
+            }
+        }else{
+            SerialPort.addItem("None Serial Ports");
+        }
 
         SendButton.addActionListener(new ActionListener() {
             @Override
