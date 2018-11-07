@@ -61,9 +61,14 @@ public class ConnectDialog {
         final ThreadPoolExecutor connectpool = new ThreadPoolExecutor(5, 20, 60, TimeUnit.SECONDS, queue, handler);
         final ThreadPoolExecutor desktoppool = new ThreadPoolExecutor(10, 100, 60, TimeUnit.SECONDS, queue, handler);
 
+         IPTextField.setText("192.168.1.118");
+         PortTextField.setText("8000");
+
+
         ConnectButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
                 String ip = IPTextField.getText();
                 String porttext = PortTextField.getText();
                 if (!ip.equals("") || !porttext.equals("")) {
