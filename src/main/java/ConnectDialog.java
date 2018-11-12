@@ -58,6 +58,7 @@ public class ConnectDialog {
 
         BlockingQueue<Runnable> queue = new ArrayBlockingQueue<Runnable>(10);
         RejectedExecutionHandler handler = new ThreadPoolExecutor.DiscardOldestPolicy();
+
         final ThreadPoolExecutor connectpool = new ThreadPoolExecutor(5, 20, 60, TimeUnit.SECONDS, queue, handler);
         final ThreadPoolExecutor desktoppool = new ThreadPoolExecutor(10, 100, 60, TimeUnit.SECONDS, queue, handler);
 
@@ -74,6 +75,7 @@ public class ConnectDialog {
                 if (!ip.equals("") || !porttext.equals("")) {
                     int port = Integer.parseInt(porttext);
                     SocketClient socketClient = new SocketClient("ConnectTest", ip, port);
+
                     connectpool.execute(socketClient);
                     if (socketClient != null) {
                         try {

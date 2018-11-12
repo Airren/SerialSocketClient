@@ -101,8 +101,8 @@ public class DesktopDialog {
                 msg = SerialPort.getSelectedItem() + ",";
                 msg += BaudRate.getSelectedItem() + ",";
                 msg += Databit.getSelectedItem() + ",";
-                msg += CheckBit.getSelectedItem() + ",";
                 msg += StopBit.getSelectedItem() + ",";
+                msg += CheckBit.getSelectedItem() + ",";
                 msg += FlowControl.getSelectedItem() + ",";
                 SocketClient socketClient = new SocketClient(msg, ip, port);
                 pool.execute(socketClient);
