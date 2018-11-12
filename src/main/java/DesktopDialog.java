@@ -95,36 +95,42 @@ public class DesktopDialog {
         OpenButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                if (OpenButton.getText().equals("连接")){
+                    // 获取需要连接的串口的信息
+                    String msg = "";
+                    msg = SerialPort.getSelectedItem() + ",";
+                    msg += BaudRate.getSelectedItem() + ",";
+                    msg += Databit.getSelectedItem() + ",";
+                    msg += StopBit.getSelectedItem() + ",";
+                    msg += CheckBit.getSelectedItem() + ",";
+                    msg += FlowControl.getSelectedItem() + ",";
+                    SocketClient socketClient = new SocketClient(msg, ip, port);
+                    pool.execute(socketClient);
 
-                // 获取需要连接的串口的信息
-                String msg = "";
-                msg = SerialPort.getSelectedItem() + ",";
-                msg += BaudRate.getSelectedItem() + ",";
-                msg += Databit.getSelectedItem() + ",";
-                msg += StopBit.getSelectedItem() + ",";
-                msg += CheckBit.getSelectedItem() + ",";
-                msg += FlowControl.getSelectedItem() + ",";
-                SocketClient socketClient = new SocketClient(msg, ip, port);
-                pool.execute(socketClient);
 
-
-                String receiveData = "";
-                try {
-                    Thread.sleep(1000);
-                    Object ss = socketClient.getReceivedResult();
-                    if (ss != null) {
-                        receiveData = ss.toString();
+                    String receiveData = "";
+                    try {
+                        Thread.sleep(1000);
+                        Object ss = socketClient.getReceivedResult();
+                        if (ss != null) {
+                            receiveData = ss.toString();
+                        }
+                    } catch (InterruptedException e1) {
+                        e1.printStackTrace();
                     }
-                } catch (InterruptedException e1) {
-                    e1.printStackTrace();
+
+                    if (receiveData.equals("SUCCESS")) {
+                        Date bdate = new Date();
+                        SimpleDateFormat dateformat = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss");
+                        InfoArea.append(dateformat.format(bdate) + ":\n" + "串口连接成功" + "\n"+msg+"\n");
+                        OpenButton.setText("关闭");
+                    }
+
+                }else {
+                    OpenButton.setText("连接");
                 }
 
-                if (receiveData.equals("SUCCESS")) {
-                    Date bdate = new Date();
-                    SimpleDateFormat dateformat = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss");
-                    InfoArea.append(dateformat.format(bdate) + ":\n" + "串口连接成功" + "\n");
-                    OpenButton.setText("关闭");
-                }
+
 
             }
         });
