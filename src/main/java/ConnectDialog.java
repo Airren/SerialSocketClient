@@ -60,7 +60,7 @@ public class ConnectDialog {
         RejectedExecutionHandler handler = new ThreadPoolExecutor.DiscardOldestPolicy();
 
         final ThreadPoolExecutor connectpool = new ThreadPoolExecutor(5, 20, 60, TimeUnit.SECONDS, queue, handler);
-        final ThreadPoolExecutor desktoppool = new ThreadPoolExecutor(10, 100, 60, TimeUnit.SECONDS, queue, handler);
+        final ThreadPoolExecutor desktoppool = new ThreadPoolExecutor(100, 100, 60, TimeUnit.SECONDS, queue, handler);
 
          IPTextField.setText("192.168.1.118");
          PortTextField.setText("8000");
