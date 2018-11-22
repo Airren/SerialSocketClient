@@ -90,7 +90,8 @@ public class ConnectDialog {
 
                         String[] ports = receivedData.split(",");
                         List<String> serialPorts = Arrays.asList(ports);
-                        if (receivedData != null ) {
+                        if (receivedData != null && receivedData.startsWith("COM")) {
+                            //if (receivedData != null && receivedData.startsWith("COM")) {
                             JFrame desktopFrame = new JFrame("DekstopDialog");
                             desktopFrame.addWindowListener(new WindowAdapter() {
                                 @Override

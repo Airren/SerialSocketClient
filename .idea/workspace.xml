@@ -4,7 +4,16 @@
     <list default="true" id="6464cc92-8088-4108-8d2c-35cb81bf635f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ConnectDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConnectDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesktopDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesktopDialog.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesktopDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesktopDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecust/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecust/client/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConnectDialog$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConnectDialog$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConnectDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConnectDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConnectDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConnectDialog$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ConnectDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConnectDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesktopDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesktopDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesktopDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesktopDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/ecust/client/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/ecust/client/ClientHandler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,23 +105,23 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="335" />
+          <entry key="java" value="603" />
           <entry key="txt" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="335" />
+          <entry key="JAVA" value="603" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
@@ -172,8 +181,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ConnectDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="62" column="73" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="73" />
+            <state relative-caret-position="214">
+              <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#613#614#0" expanded="true" />
@@ -186,6 +195,10 @@
                 <element signature="e#881#882#0" expanded="true" />
                 <element signature="e#919#920#0" expanded="true" />
                 <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#2215#5006#0" expanded="true" />
+                <element signature="e#5005#5006#0" expanded="true" />
+                <element signature="e#5047#5222#0" expanded="true" />
+                <element signature="e#5221#5222#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,10 +221,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DesktopDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="124" column="98" selection-start-line="124" selection-start-column="98" selection-end-line="124" selection-end-column="98" />
+            <state relative-caret-position="-664">
+              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -254,8 +271,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/ecust/client/ClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -298,11 +315,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Alert.java" />
         <option value="$PROJECT_DIR$/src/main/java/DekstopDialog.form" />
         <option value="$PROJECT_DIR$/src/main/java/DekstopDialog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ecust/client/ClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/ecust/client/SocketClient.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/DesktopDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ecust/client/ClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/DesktopDialog.form" />
+        <option value="$PROJECT_DIR$/src/main/java/DesktopDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConnectDialog.java" />
       </list>
     </option>
@@ -315,8 +332,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="width" value="814" />
+    <option name="height" value="1167" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -325,6 +342,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -378,14 +396,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="372" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542107889658" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542853976988" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -495,7 +512,8 @@
       <workItem from="1541904515212" duration="1272000" />
       <workItem from="1541952450201" duration="1311000" />
       <workItem from="1542000095945" duration="10455000" />
-      <workItem from="1542158960361" duration="824000" />
+      <workItem from="1542158960361" duration="12347000" />
+      <workItem from="1542853441903" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="socket thread">
       <created>1539684292884</created>
@@ -546,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542006025148</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="base function finished">
+      <created>1542163572833</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1542163572833</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59939000" />
+    <option name="totallyTimeSpent" value="71994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,8 +588,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="1176" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.083547555" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16195373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -574,8 +600,8 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959382" visible="true" weight="0.527115" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959382" weight="0.5268714" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39827254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
@@ -583,7 +609,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32917467" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32917467" />
       <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.50040615" side_tool="true" visible="true" weight="0.3132653" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.326713" />
@@ -657,7 +683,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ConnectDialog.java</url>
-          <line>113</line>
+          <line>92</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -665,26 +691,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConnectDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="62" column="73" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -694,16 +700,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ConnectDialog.form">
       <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DesktopDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="124" column="98" selection-start-line="124" selection-start-column="98" selection-end-line="124" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DesktopDialog.form">
       <provider selected="true" editor-type-id="ui-designer" />
@@ -733,10 +729,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/ecust/client/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DesktopDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-664">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConnectDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#2215#5006#0" expanded="true" />
+            <element signature="e#5005#5006#0" expanded="true" />
+            <element signature="e#5047#5222#0" expanded="true" />
+            <element signature="e#5221#5222#0" expanded="true" />
           </folding>
         </state>
       </provider>

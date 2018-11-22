@@ -1,3 +1,4 @@
+import org.ecust.client.ClientHandler;
 import org.ecust.client.SocketClient;
 
 import javax.swing.*;
@@ -29,6 +30,17 @@ public class DesktopDialog {
     private String SerialPortName;
 
 
+    public String getEncoding() {
+        return encoding;
+    }
+
+    public void setEncoding(String encoding) {
+        this.encoding = encoding;
+    }
+
+    private String encoding;
+
+
     public String getSerialPortName() {
         return SerialPortName;
     }
@@ -51,6 +63,17 @@ public class DesktopDialog {
             SerialPort.addItem("None Serial Ports");
         }
 
+        ASCIIRadioButton.setSelected(true);
+        if (ASCIIRadioButton.isSelected()){
+            HEXRadioButton.setSelected(false);
+        }
+
+        if (HEXRadioButton.isSelected()){
+            ASCIIRadioButton.setSelected(true);
+        }
+
+
+
         // 发送按键
         SendButton.addActionListener(new ActionListener() {
             @Override
@@ -72,7 +95,7 @@ public class DesktopDialog {
 
                     String receiveData = "";
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(3000);
                         Object ss = socketClient.getReceivedResult();
                         if (ss != null) {
                             receiveData = ss.toString();
@@ -83,10 +106,16 @@ public class DesktopDialog {
 
                     if (!receiveData.equals("")) {
                         Date bdate = new Date();
-                        InfoArea.append(dateformat.format(bdate) + ":\n" + receiveData + "\n");
+                        String test = ClientHandler.msgs;
+                        InfoArea.append(dateformat.format(bdate) + ":\n" + ClientHandler.msgs + "\n");
+                        String l = ClientHandler.msgs;
+                        ClientHandler.msgs = "";
+                    } else {
+                        Date bdate = new Date();
+                        InfoArea.append(dateformat.format(bdate) + ":\n" + "Nothing" + "\n");
                     }
-                }else {
-                     InfoArea.append("请选择串口参数，连接串口！！！\n");
+                } else {
+                    InfoArea.append("请选择串口参数，连接串口！！！\n");
 
                 }
             }
@@ -95,7 +124,7 @@ public class DesktopDialog {
         OpenButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (OpenButton.getText().equals("连接")){
+                if (OpenButton.getText().equals("连接")) {
                     // 获取需要连接的串口的信息
                     String msg = "";
                     msg = SerialPort.getSelectedItem() + ",";
@@ -106,6 +135,7 @@ public class DesktopDialog {
                     msg += FlowControl.getSelectedItem() + ",";
                     SocketClient socketClient = new SocketClient(msg, ip, port);
                     pool.execute(socketClient);
+
 
 
                     String receiveData = "";
@@ -122,14 +152,14 @@ public class DesktopDialog {
                     if (receiveData.equals("SUCCESS")) {
                         Date bdate = new Date();
                         SimpleDateFormat dateformat = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss");
-                        InfoArea.append(dateformat.format(bdate) + ":\n" + "串口连接成功" + "\n"+msg+"\n");
+                        InfoArea.append(dateformat.format(bdate) + ":\n" + "串口连接成功" + "\n" + msg + "\n");
+                        ClientHandler.msgs = "";
                         OpenButton.setText("关闭");
                     }
 
-                }else {
+                } else {
                     OpenButton.setText("连接");
                 }
-
 
 
             }

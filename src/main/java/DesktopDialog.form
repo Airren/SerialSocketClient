@@ -186,7 +186,7 @@
       <scrollpane id="6036b">
         <constraints>
           <grid row="1" column="1" row-span="4" col-span="1" vsize-policy="7" hsize-policy="7" anchor="4" fill="2" indent="0" use-parent-layout="false">
-            <minimum-size width="500" height="300"/>
+            <preferred-size width="500" height="-1"/>
           </grid>
         </constraints>
         <properties/>

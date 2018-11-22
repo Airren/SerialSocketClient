@@ -8,10 +8,15 @@ public class ClientHandler extends IoHandlerAdapter {
 
     private static Logger logger = Logger.getLogger(ClientHandler.class);
 
+    public static String msgs = "";
+
     @Override
     public void messageReceived(IoSession session, Object message) throws Exception {
-        String msg = message.toString();
+        String msg = "";
+        msg = message.toString()+"\n";
         logger.info("客户端接收到的信息为：" + msg);
+        msgs +=msg;
+        System.out.println(msg);
     }
 
     @Override
