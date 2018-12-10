@@ -4,16 +4,9 @@
     <list default="true" id="6464cc92-8088-4108-8d2c-35cb81bf635f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ConnectDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConnectDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesktopDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesktopDialog.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DesktopDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesktopDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecust/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecust/client/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectDialog$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConnectDialog$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ConnectDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConnectDialog$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConnectDialog$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ConnectDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConnectDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesktopDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesktopDialog$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesktopDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesktopDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/ecust/client/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/ecust/client/ClientHandler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,7 +96,7 @@
     <session id="-530418665">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.29" value="1" />
@@ -115,14 +108,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="603" />
-          <entry key="txt" value="31" />
+          <entry key="java" value="662" />
+          <entry key="txt" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="603" />
-          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="JAVA" value="662" />
+          <entry key="PLAIN_TEXT" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -135,6 +128,11 @@
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="2" />
           <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -178,11 +176,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ConnectDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+            <state relative-caret-position="191">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#613#614#0" expanded="true" />
@@ -195,10 +193,10 @@
                 <element signature="e#881#882#0" expanded="true" />
                 <element signature="e#919#920#0" expanded="true" />
                 <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#2215#5006#0" expanded="true" />
-                <element signature="e#5005#5006#0" expanded="true" />
-                <element signature="e#5047#5222#0" expanded="true" />
-                <element signature="e#5221#5222#0" expanded="true" />
+                <element signature="e#2215#5162#0" expanded="true" />
+                <element signature="e#5161#5162#0" expanded="true" />
+                <element signature="e#5203#5378#0" expanded="true" />
+                <element signature="e#5377#5378#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -218,11 +216,11 @@
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DesktopDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-664">
-              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+            <state relative-caret-position="394">
+              <caret line="149" column="21" lean-forward="true" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#902#903#0" expanded="true" />
@@ -271,7 +269,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/ecust/client/ClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="228">
               <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -298,6 +296,11 @@
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GradleLocalSettings">
@@ -319,8 +322,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/ecust/client/ClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/DesktopDialog.form" />
-        <option value="$PROJECT_DIR$/src/main/java/DesktopDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConnectDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DesktopDialog.java" />
       </list>
     </option>
   </component>
@@ -402,7 +405,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="372" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542854051495" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542855310748" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -513,7 +516,7 @@
       <workItem from="1541952450201" duration="1311000" />
       <workItem from="1542000095945" duration="10455000" />
       <workItem from="1542158960361" duration="12347000" />
-      <workItem from="1542853441903" duration="532000" />
+      <workItem from="1542853441903" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="socket thread">
       <created>1539684292884</created>
@@ -571,11 +574,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542163572833</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="base function finished">
+      <created>1542854029104</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542854029104</updated>
+    </task>
+    <task id="LOCAL-00010" summary="first">
+      <created>1542854095509</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542854095509</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71994000" />
+    <option name="totallyTimeSpent" value="73907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -588,7 +605,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="1176" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16195373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -601,7 +617,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959382" weight="0.5268714" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39827254" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39827254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
@@ -676,19 +692,8 @@
     <MESSAGE value="netty" />
     <MESSAGE value="mina 完成" />
     <MESSAGE value="base function finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="base function finished" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ConnectDialog.java</url>
-          <line>92</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -729,7 +734,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/ecust/client/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="228">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -737,24 +742,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DesktopDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-664">
-          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ConnectDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        <state relative-caret-position="191">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#613#614#0" expanded="true" />
@@ -767,10 +758,24 @@
             <element signature="e#881#882#0" expanded="true" />
             <element signature="e#919#920#0" expanded="true" />
             <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#2215#5006#0" expanded="true" />
-            <element signature="e#5005#5006#0" expanded="true" />
-            <element signature="e#5047#5222#0" expanded="true" />
-            <element signature="e#5221#5222#0" expanded="true" />
+            <element signature="e#2215#5162#0" expanded="true" />
+            <element signature="e#5161#5162#0" expanded="true" />
+            <element signature="e#5203#5378#0" expanded="true" />
+            <element signature="e#5377#5378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DesktopDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="149" column="21" lean-forward="true" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
           </folding>
         </state>
       </provider>

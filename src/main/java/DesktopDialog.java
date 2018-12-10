@@ -149,7 +149,7 @@ public class DesktopDialog {
                         e1.printStackTrace();
                     }
 
-                    if (receiveData.equals("SUCCESS")) {
+                    if (receiveData.equals("")) {
                         Date bdate = new Date();
                         SimpleDateFormat dateformat = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss");
                         InfoArea.append(dateformat.format(bdate) + ":\n" + "串口连接成功" + "\n" + msg + "\n");

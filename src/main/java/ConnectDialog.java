@@ -62,7 +62,7 @@ public class ConnectDialog {
         final ThreadPoolExecutor connectpool = new ThreadPoolExecutor(5, 20, 60, TimeUnit.SECONDS, queue, handler);
         final ThreadPoolExecutor desktoppool = new ThreadPoolExecutor(100, 100, 60, TimeUnit.SECONDS, queue, handler);
 
-         IPTextField.setText("192.168.1.118");
+         IPTextField.setText("192.168.1.124");
          PortTextField.setText("8000");
 
 
@@ -75,22 +75,30 @@ public class ConnectDialog {
                 if (!ip.equals("") || !porttext.equals("")) {
                     int port = Integer.parseInt(porttext);
                     SocketClient socketClient = new SocketClient("ConnectTest", ip, port);
-
                     connectpool.execute(socketClient);
                     if (socketClient != null) {
+                        String receivedData = null;
                         try {
                             Thread.sleep(1000);
                         } catch (InterruptedException e1) {
                             e1.printStackTrace();
                         }
-                        String receivedData = socketClient.getReceivedResult().toString();
+                        try{
+                             receivedData = socketClient.getReceivedResult().toString();
+                        }catch (Exception e1){
+
+                        }finally {
+                             receivedData = "connected";
+                        }
+
                         System.out.println(receivedData);
 
                         //if (receivedData != null && receivedData.equals("ConnectSuccess")) {
 
                         String[] ports = receivedData.split(",");
                         List<String> serialPorts = Arrays.asList(ports);
-                        if (receivedData != null && receivedData.startsWith("COM")) {
+
+                        if (receivedData != null ) {
                             //if (receivedData != null && receivedData.startsWith("COM")) {
                             JFrame desktopFrame = new JFrame("DekstopDialog");
                             desktopFrame.addWindowListener(new WindowAdapter() {
